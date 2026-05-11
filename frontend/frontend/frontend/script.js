@@ -2,7 +2,7 @@ async function generateVideo(){
 
   let prompt = document.getElementById("prompt").value;
 
-  const response = await fetch("http://127.0.0.1:5000/generate",{
+  const response = await fetch("https://unreferenced-unpathetically-jackqueline.ngrok-free.dev/generate",{
 
     method:"POST",
 
